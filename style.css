@@ -4,6 +4,22 @@
   box-sizing: border-box;
 }
 
+.side1 {
+  height: 450px ;
+  width: 250px;
+  position: absolute;
+  left: 0;
+  top: 1;
+}
+
+.side2 {
+  height: 450px ;
+  width: 250px;
+  position: absolute;
+  right: 0;
+  top: 1;
+}
+
 body {
   background-color: #ff5200;
 }
@@ -19,7 +35,7 @@ nav {
 }
 
 .text {
-  background-color: #FF5200;
+  /* background-color: #FF5200; */
   color: white;
   display: flex;
   justify-content: space-between;
@@ -104,7 +120,7 @@ nav {
   justify-content: center;
   gap: 20px;
   padding: 35px 25px;
-  background-color: #ff5200;
+  /* background-color: #ff5200; */
 }
 
 
